@@ -27,10 +27,25 @@ ORDER BY
 
 
 <details>
-  <summary>Todo Context Code</summary>
+  <summary>CASE WHEN</summary>
   
   ```typescript
-  // Your code goes here
-  import { createContext, useReducer } from 'react';
-  const initialState = { todos: [] };
-  export const TodoStateContext = createContext(undefined);
+  // To better understand the effect of the review count on the price of accomodation, categorize the number of reviews into the following groups along with the price.
+0 reviews: NO
+1 to 5 reviews: FEW
+6 to 15 reviews: SOME
+16 to 40 reviews: MANY
+more than 40 reviews: A LOT
+Output the price and it's categorization. Perform the categorization on accomodation level.
+
+<img width="612" alt="Screenshot 2024-12-10 at 10 57 09 AM" src="https://github.com/user-attachments/assets/98610197-f41f-4720-97e8-93c41e01a837">
+
+
+<img width="679" alt="Screenshot 2024-12-10 at 10 58 30 AM" src="https://github.com/user-attachments/assets/8e15dfd8-e03e-4fee-a32a-a3c2c81ec24d">
+
+;
+###Expected output
+<img width="679" alt="Screenshot 2024-12-10 at 11 00 12 AM" src="https://github.com/user-attachments/assets/3f63cdc1-d27c-4bec-a5b9-15e0395f74e6">
+
+
+
