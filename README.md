@@ -24,3 +24,13 @@ ORDER BY
 2. __GROUP BY__: for each host we use host_id
 3. __HAVING__: Once used GROUP BY we can't use WHERE, we can only use HAVING since it is used for GROUP and not each record
 4. __ORDER BY__: To order the avg_days in descending order 
+
+
+<details>
+  <summary>Todo Context Code</summary>
+  
+  ```typescript
+  // Your code goes here
+  import { createContext, useReducer } from 'react';
+  const initialState = { todos: [] };
+  export const TodoStateContext = createContext(undefined);
