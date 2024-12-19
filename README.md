@@ -44,6 +44,39 @@ Output the price and it's categorization. Perform the categorization on accomoda
 
 ### Note:</br> 
 1. Remember to use the END or ELSE to finish the CASE statement
+---
+
+Calculate the total weight for each shipment and add it as a new column. Your output needs to have all the existing rows and columns in addition to the  new column that shows the total weight for each shipment. One shipment can have multiple rows.</br>
+
+### solution: </br>
+WITH cte AS </br>
+(</br>
+  select *, SUM(weight) AS total_weight </br>
+  from amazon_shipment a</br>
+  GROUP BY shipment_id </br>
+)</br>
+select amazon_shipment.*, total_weight</br>
+from amazon_shipment</br>
+JOIN cte ON amazon_shipment.shipment_id = cte.shipment_id</br>
+
+### Explanation </br>
+
+We created a cte first for calculating total_weight and creating a new column of it. Then we GROUPED BY shipment ID so each shipment can be seen, but we wanted all the rows even if they have occurred multiple times. </br>
+To see each and every row ( even if they are repeated) shipment_id we had to join the tables so we joined both tables.</br>
+We did INNER JOIN so all the matching rows get showed</br>
+
+
+<img width="855" alt="Screenshot 2024-12-19 at 11 04 04 AM" src="https://github.com/user-attachments/assets/1a284cec-fd6c-4ed4-a70f-f2d534e82d5b" />
+
+
+
+### If it Were a LEFT or RIGHT JOIN:</br>
+#### LEFT JOIN: All rows from amazon_shipment are included, even if no match is found in cte. Non-matching rows will have NULL values for cte columns.</br>
+#### RIGHT JOIN: All rows from cte are included, even if no match is found in amazon_shipment. Non-matching rows will have NULL values for amazon_shipment columns.</br>
+
+
+
+
 
 
 
