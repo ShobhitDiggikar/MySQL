@@ -100,7 +100,7 @@ WHERE density_rank <= 3;
 ### Explanation
 1. We have to find the top 3 areas with the highest customer density for which we have a formula </br>
 2. But we have to start by creating CTE because the customer density column does not exist by default so we create it</br>
-3. We start by selecting the **area name**  then we use the customer density formula. </br>
+3. We start by selecting the **area name**  then we use the customer density formula. To count each unique customer we use **COUNT(DISTINCT** </br>
 4. As the area size column is in bigint we have to change its format so we use **CAST** to change it into decimal >>> **CAST(s.area_size AS DECIMAL)** </br>
 5. Then we use Density_rank and order in descending.</br>
 6. We have to join both tables i.e. transaction records and stores in order to show the area name and corresponding customer density </br>
