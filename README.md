@@ -74,6 +74,31 @@ We did INNER JOIN so all the matching rows get showed</br>
 #### LEFT JOIN: All rows from amazon_shipment are included, even if no match is found in cte. Non-matching rows will have NULL values for cte columns.</br>
 #### RIGHT JOIN: All rows from cte are included, even if no match is found in amazon_shipment. Non-matching rows will have NULL values for amazon_shipment columns.</br>
 
+---
+### High Density Areas ( **hard** )
+Identify the top 3 areas with the highest customer density. Customer density = (total number of unique customers in the area / area size).</br>
+
+Your output should include the area name and its calculated customer density, and ties will be ranked the same.<be>
+### Query </br>
+
+<img width="841" alt="Screenshot 2024-12-22 at 5 26 41 PM" src="https://github.com/user-attachments/assets/5cead8d1-16ec-4ad6-bfbe-0faf288bd8a5" /> </br> 
+
+WITH ranked_data AS
+  (SELECT s.area_name,
+          COUNT(DISTINCT t.customer_id) / CAST(s.area_size AS DECIMAL) AS customer_density,
+          RANK() OVER (
+                       ORDER BY COUNT(DISTINCT t.customer_id) / CAST(s.area_size AS DECIMAL) DESC) AS density_rank
+   FROM transaction_records AS t
+   JOIN stores AS s ON t.store_id = s.store_id
+   GROUP BY s.area_name,
+            s.area_size)
+SELECT area_name,
+       customer_density
+FROM ranked_data
+WHERE density_rank <= 3;
+
+### Explanation
+
 
 
 
