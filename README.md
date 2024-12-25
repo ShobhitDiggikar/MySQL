@@ -107,6 +107,13 @@ WHERE density_rank <= 3;
 7. Then we **Group By** the entire result by area name and area size to show the result according to the area size and area name</br>
 8. In the end we select the area name and customer density and use **WHERE** clause for the top 3 density ranks
 
+---
+# Find the second-highest salary in each department.
+
+### table: employee_data</br>
+<img width="931" alt="Screenshot 2024-12-25 at 3 37 15 PM" src="https://github.com/user-attachments/assets/7528bba3-9d8d-4d36-833f-e154488dd073" /> </br>
+
+
 
 
 
