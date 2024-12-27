@@ -113,6 +113,20 @@ WHERE density_rank <= 3;
 ### table: employee_data</br>
 <img width="931" alt="Screenshot 2024-12-25 at 3 37 15 PM" src="https://github.com/user-attachments/assets/7528bba3-9d8d-4d36-833f-e154488dd073" /> </br>
 
+### solution 
+WITH ranked_salaries AS</br>
+  (SELECT department,</br>
+          employee_id,</br>
+          salary,</br>
+          DENSE_RANK() OVER (PARTITION BY department</br>
+                             ORDER BY salary DESC) AS salary_rank</br>
+   FROM employee_data)</br>
+SELECT department,</br>
+       employee_id,</br>
+       salary AS second_highest_salary</br>
+FROM ranked_salaries</br>
+WHERE salary_rank = 2;</br>
+
 
 
 
