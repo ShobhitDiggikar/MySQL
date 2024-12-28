@@ -113,7 +113,10 @@ WHERE density_rank <= 3;
 ### table: employee_data</br>
 <img width="931" alt="Screenshot 2024-12-25 at 3 37 15 PM" src="https://github.com/user-attachments/assets/7528bba3-9d8d-4d36-833f-e154488dd073" /> </br>
 
-### solution 
+### Query
+<img width="745" alt="Screenshot 2024-12-28 at 3 03 14 PM" src="https://github.com/user-attachments/assets/27379bd5-7085-45a4-8d6e-b97abd49e996" />
+
+
 WITH ranked_salaries AS</br>
   (SELECT department,</br>
           employee_id,</br>
@@ -125,7 +128,15 @@ SELECT department,</br>
        employee_id,</br>
        salary AS second_highest_salary</br>
 FROM ranked_salaries</br>
-WHERE salary_rank = 2;</br>
+WHERE salary_rank = 2;</br> 
+
+### solution: </br>
+1. First we create a CTE named ranked_salaries to give ranks and we partition by department and 
+   order salary in descending order </br>
+2. Then we select department, employee_id and salary AS the second highest salary from 
+   ranked_salaries (CTE)
+3. Then we use the WHERE clause to select salary_rank = 2, this will give us the second-highest- 
+   ranked salary in each department.
 
 
 
