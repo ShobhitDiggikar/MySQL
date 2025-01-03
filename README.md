@@ -1,6 +1,14 @@
 # MySQL
 Welcome to the SQL Questions and Notes.
 
+## Calculate the sales revenue for the year 2021.</br>
+<img width="502" alt="Screenshot 2025-01-02 at 10 33 14 PM" src="https://github.com/user-attachments/assets/68eba065-0075-4024-b348-73f9e8924108" /> </br>
+
+### Explanation: The entire revenue was much higher but then I noticed, it is asking for only 2021 year. so used where & between
+
+
+
+
 # Find the average difference between booking and checking dates  
 Q. Find the average number of days between the booking and check-in dates for AirBnB hosts. Order the results based on the average number of days in descending order.
 avg_days_between_booking_and_checkin DESC</br>
