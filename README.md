@@ -146,6 +146,23 @@ WHERE salary_rank = 2;</br>
 3. Then we use the WHERE clause to select salary_rank = 2, this will give us the second-highest- 
    ranked salary in each department.
 
+   ---
+ ### Question  
+<img width="612" alt="Screenshot 2025-01-08 at 10 34 46 PM" src="https://github.com/user-attachments/assets/9ca57d2e-5c3c-4558-bf7d-d17260ca52a2" /> </br>
+
+### Sample Table
+
+<img width="1659" alt="Screenshot 2025-01-08 at 10 37 00 PM" src="https://github.com/user-attachments/assets/1f90b000-6d54-476a-bf34-a516b464ad9c" />
+
+### Solution
+
+<img width="529" alt="Screenshot 2025-01-08 at 10 43 51 PM" src="https://github.com/user-attachments/assets/79287747-1d6d-48e7-a222-bcc57a66c903" />
+
+
+
+
+
+
 
 
 
