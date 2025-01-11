@@ -1,3 +1,7 @@
+# I am crying because of my inconsistency in everything
+
+
+
 # MySQL
 Welcome to the SQL Questions and Notes.
 
