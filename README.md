@@ -7,7 +7,7 @@ Welcome to the SQL Questions and Notes.
 ## Calculate the sales revenue for the year 2021.</br>
 <img width="502" alt="Screenshot 2025-01-02 at 10 33 14 PM" src="https://github.com/user-attachments/assets/68eba065-0075-4024-b348-73f9e8924108" /> </br>
 
-### Explanation: The entire revenue was much higher but then I noticed, it is asking for only 2021 year. so used where & between
+### Explanation: The entire revenue was much higher than expected answer then I noticed, it is asking for only 2021 year. so used where & between
 
 
 
