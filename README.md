@@ -1,4 +1,3 @@
-# I am crying because of my inconsistency in everything
 
 
 
