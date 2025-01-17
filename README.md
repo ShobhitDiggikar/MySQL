@@ -187,6 +187,9 @@ Write a solution to find the daily active user count for a period of 30 days end
 
 <img width="844" alt="Screenshot 2025-01-16 at 7 05 09 PM" src="https://github.com/user-attachments/assets/f28e3480-7245-42e2-a1c1-7b3c94e5f8cd" />
 
+data tables
+<img width="1099" alt="Screenshot 2025-01-16 at 7 45 08 PM" src="https://github.com/user-attachments/assets/32e9471b-ded7-4e86-a6d9-6fb5fe4316c0" />
+
 
 ### Solution
 
