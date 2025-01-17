@@ -182,6 +182,22 @@ Write a solution to find the daily active user count for a period of 30 days end
 
 <img width="538" alt="Screenshot 2025-01-16 at 6 36 51 PM" src="https://github.com/user-attachments/assets/81251471-2e81-42e0-9b35-901afb3490dd" />
 
+---
+## Medium
+
+<img width="844" alt="Screenshot 2025-01-16 at 7 05 09 PM" src="https://github.com/user-attachments/assets/f28e3480-7245-42e2-a1c1-7b3c94e5f8cd" />
+
+
+### Solution
+
+SELECT u.user_id, DATE(u.signup_date) as signup_dtae, COUNT( a.activity_type ) AS activity_type</br>
+FROM user_activities a</br>
+JOIN user_profiles u ON a.user_id = u.user_id </br>
+WHERE a.activity_date BETWEEN u.signup_date AND DATE_ADD(u.signup_date, INTERVAL 30 DAY) </br>
+GROUP BY a.user_id, u.signup_date </br>
+
+
+
 
 
 
