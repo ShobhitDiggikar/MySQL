@@ -170,6 +170,20 @@ WHERE salary_rank = 2;</br>
 
 <img width="485" alt="Screenshot 2025-01-11 at 11 10 27 PM" src="https://github.com/user-attachments/assets/7f7be6f3-d647-4ed5-a9d9-ce839fcdfaea" />
 
+---
+### Question
+Write a solution to find the daily active user count for a period of 30 days ending 2019-07-27 inclusively. A user was active on someday if they made at least one activity on that day.</br>
+
+### Query
+
+<img width="538" alt="Screenshot 2025-01-16 at 6 35 41 PM" src="https://github.com/user-attachments/assets/7df08ff7-8293-430f-a3c3-98186ceeb013" />
+
+### Output 
+
+<img width="538" alt="Screenshot 2025-01-16 at 6 36 51 PM" src="https://github.com/user-attachments/assets/81251471-2e81-42e0-9b35-901afb3490dd" />
+
+
+
 
 
 
