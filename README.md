@@ -199,6 +199,27 @@ JOIN user_profiles u ON a.user_id = u.user_id </br>
 WHERE a.activity_date BETWEEN u.signup_date AND DATE_ADD(u.signup_date, INTERVAL 30 DAY) </br>
 GROUP BY a.user_id, u.signup_date </br>
 
+---
+### Question
+
+<img width="708" alt="Screenshot 2025-01-17 at 5 56 37 PM" src="https://github.com/user-attachments/assets/7b7a179c-8f31-4c79-bbaa-c6df16722e64" />
+
+### Solution
+
+SELECT id_guest, </br>
+       DENSE_RANK() OVER(ORDE BY SUM(n_messages) DESC) AS ranks,  </br>
+       SUM(n_messages) AS total_messages </br>
+FROM airbnb_contacts </br>
+GROUP BY id_guest, </br>
+ORDER BY total_messages DESC; </br>
+
+***Note: Remember to use the things with aggregation inside the window function*** </br>
+
+### Output
+
+<img width="858" alt="Screenshot 2025-01-17 at 6 02 25 PM" src="https://github.com/user-attachments/assets/63e44ccf-99c1-4b0e-87f2-b1e9f8bc2861" />
+
+       
 
 
 
