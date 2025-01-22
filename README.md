@@ -217,7 +217,31 @@ ORDER BY total_messages DESC; </br>
 
 ### Output
 
-<img width="858" alt="Screenshot 2025-01-17 at 6 02 25 PM" src="https://github.com/user-attachments/assets/63e44ccf-99c1-4b0e-87f2-b1e9f8bc2861" />
+<img width="858" alt="Screenshot 2025-01-17 at 6 02 25 PM" src="https://github.com/user-attachments/assets/63e44ccf-99c1-4b0e-87f2-b1e9f8bc2861" /> </br>
+
+
+---
+### Question
+
+<img width="755" alt="Screenshot 2025-01-21 at 10 14 46 PM" src="https://github.com/user-attachments/assets/b0e3cba9-08ab-4b4e-93f0-a17c98e13da7" /> </br>
+
+### data table
+
+<img width="835" alt="Screenshot 2025-01-21 at 10 18 44 PM" src="https://github.com/user-attachments/assets/2852ee5c-417a-4491-9ab3-9df5b9fc21b6" /> </br>
+
+### Query </br>
+
+<img width="835" alt="Screenshot 2025-01-21 at 10 20 43 PM" src="https://github.com/user-attachments/assets/5d862b96-a74b-4435-9e2f-816e195ed9ad" />
+
+### Explanation 
+1. We have to find the total number of users and the number of active users, so we use >>> COUNT(user_id) AS total_users
+2. To find the number of active_users we use CASE WHEN not WHERE. >>> COUNT(CASE WHEN status = 'open' THEN 1 ELSE NULL END) AS active_users
+3. then to narrow down the users from the USA only >>> WHERE country = 'USA' for the USA active users share 
+4. We make this entire query as a subquery so we get these results first and from here we use total_users and active_users to find the share.
+5. Then we run the main query >>> SELECT active_users/CAST(total_users AS FLOAT) AS active_users_share and 
+  
+
+
 
        
 
