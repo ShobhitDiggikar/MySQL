@@ -251,9 +251,7 @@ ORDER BY total_messages DESC; </br>
 
 ---
   
-
-
-
+Needs to be added something as gajanan keeps moving forward with the SQL it has motivated me as well to the SQL 
        
 
 
