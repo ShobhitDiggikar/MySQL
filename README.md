@@ -254,6 +254,7 @@ ORDER BY total_messages DESC; </br>
 Needs to be added something as gajanan keeps moving forward with the SQL it has motivated me as well to the SQL 
        
 
+<img width="1656" alt="Screenshot 2025-02-25 at 9 31 15 AM" src="https://github.com/user-attachments/assets/d614ff7d-eedf-4923-9b66-229d3e8b5d55" />
 
 
 
