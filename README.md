@@ -1,4 +1,6 @@
-
+# Notes
+***DATE_TRUNC*** is a function that resets/removes smaller time units from a date or timestamp, keeping only the value and larger than the value we mention </br>
+For example, if you have **"2024-03-15 14:35:20"** and you use DATE_TRUNC('month', timestamp), it will return **"2024-03-01 00:00:00"**
 
 
 # MySQL
