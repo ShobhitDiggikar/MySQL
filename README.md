@@ -5,6 +5,8 @@ For example, if you have **"2024-03-15 14:35:20"** and you use DATE_TRUNC('month
 ***DATEDIFF*** is a function that is used to calculate the **difference between two dates** in terms of the specified unit</br>
 for example DATEDIFF(unit, start_date, end_date)
 
+LENGTH(_) is used to count 
+
 
 
 # MySQL
