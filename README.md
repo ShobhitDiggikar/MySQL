@@ -263,7 +263,10 @@ Needs to be added something as gajanan keeps moving forward with the SQL it has 
        
 
 <img width="1656" alt="Screenshot 2025-02-25 at 9 31 15 AM" src="https://github.com/user-attachments/assets/d614ff7d-eedf-4923-9b66-229d3e8b5d55" />
+---
 
+### LAG Function
+<img width="1510" alt="Screenshot 2025-03-06 at 5 01 54 PM" src="https://github.com/user-attachments/assets/86cc9f2a-4feb-408f-9f6e-729ddaa71a4c" />
 
 
 
