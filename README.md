@@ -266,7 +266,11 @@ Needs to be added something as gajanan keeps moving forward with the SQL it has 
 ---
 
 ### LAG Function
+
+**LAG() function allows us to retrieve the value from the previous row in the result set.**
 <img width="1510" alt="Screenshot 2025-03-06 at 5 01 54 PM" src="https://github.com/user-attachments/assets/86cc9f2a-4feb-408f-9f6e-729ddaa71a4c" />
+
+
 
 
 
