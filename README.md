@@ -272,7 +272,10 @@ Needs to be added something as gajanan keeps moving forward with the SQL it has 
 
 ---
 ## leetcode
-<img width="1583" alt="Screenshot 2025-03-17 at 4 52 32 PM" src="https://github.com/user-attachments/assets/e6ac2486-f529-453d-8b4e-3935341b7a1b" />
+<img width="1583" alt="Screenshot 2025-03-17 at 4 52 32 PM" src="https://github.com/user-attachments/assets/e6ac2486-f529-453d-8b4e-3935341b7a1b" /> </br>
+
+
+I will do atleast one question today from leetcode nad stratascratch both
 
 
 
