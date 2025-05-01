@@ -277,6 +277,9 @@ Needs to be added something as gajanan keeps moving forward with the SQL it has 
 
 I will do atleast one question today from leetcode nad stratascratch both
 
+---
+
+<img width="1525" alt="Screenshot 2025-05-01 at 3 02 34 PM" src="https://github.com/user-attachments/assets/ae5175a8-779e-4409-84b3-17e305428106" />
 
 
 
