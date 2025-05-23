@@ -62,7 +62,13 @@ Output the price and it's categorization. Perform the categorization on accomoda
 <img width="679" alt="Screenshot 2024-12-10 at 10 58 30 AM" src="https://github.com/user-attachments/assets/8e15dfd8-e03e-4fee-a32a-a3c2c81ec24d">
 
 ### Note:</br> 
-1. Remember to use the END or ELSE to finish the CASE statement
+1. Remember to use the END or ELSE to finish the CASE statement</br>
+
+![Screenshot 2025-05-22 at 8 57 38 PM](https://github.com/user-attachments/assets/5def61e4-c0b1-4432-a304-786e118958c8)
+
+### Note: </br> 
+1. Every time you have to find %, use COUNT(*) for the denominator to get the count of all the rows 
+   
 ---
 
 Calculate the total weight for each shipment and add it as a new column. Your output needs to have all the existing rows and columns in addition to the  new column that shows the total weight for each shipment. One shipment can have multiple rows.</br>
