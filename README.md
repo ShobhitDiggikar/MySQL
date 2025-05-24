@@ -252,7 +252,10 @@ ORDER BY total_messages DESC; </br>
 2. To find the number of active_users we use CASE WHEN not WHERE. >>> COUNT(CASE WHEN status = 'open' THEN 1 ELSE NULL END) AS active_users
 3. then to narrow down the users from the USA only >>> WHERE country = 'USA' for the USA active users share 
 4. We make this entire query as a subquery so we get these results first and from here we use total_users and active_users to find the share.
-5. Then we run the main query >>> SELECT active_users/CAST(total_users AS FLOAT) AS active_users_share and
+5. Then we run the main query >>> SELECT active_users/CAST(total_users AS FLOAT) AS active_users_share and</br>.
+
+
+![Screenshot 2025-05-23 at 11 21 51 PM](https://github.com/user-attachments/assets/588de557-5f35-45f2-96ec-4fd181d9cb05)
 
 ---
 ### Question 
