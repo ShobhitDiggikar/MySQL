@@ -290,6 +290,11 @@ I will do atleast one question today from leetcode nad stratascratch both
 
 <img width="1525" alt="Screenshot 2025-05-01 at 3 02 34 PM" src="https://github.com/user-attachments/assets/ae5175a8-779e-4409-84b3-17e305428106" />
 
+---
+
+<img width="1688" alt="Screenshot 2025-05-30 at 2 29 53 PM" src="https://github.com/user-attachments/assets/8ef71f2d-5443-4924-98a5-fab037512a9a" />
+
+
 
 
 
