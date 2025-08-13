@@ -294,6 +294,10 @@ I will do atleast one question today from leetcode nad stratascratch both
 
 <img width="1688" alt="Screenshot 2025-05-30 at 2 29 53 PM" src="https://github.com/user-attachments/assets/8ef71f2d-5443-4924-98a5-fab037512a9a" />
 
+---
+
+<img width="1356" height="773" alt="Screenshot 2025-08-13 at 4 09 23 PM" src="https://github.com/user-attachments/assets/b252bede-b086-450f-be3f-a12aa1d17307" />
+
 
 
 
