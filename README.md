@@ -298,6 +298,12 @@ I will do atleast one question today from leetcode nad stratascratch both
 
 <img width="1356" height="773" alt="Screenshot 2025-08-13 at 4 09 23 PM" src="https://github.com/user-attachments/assets/b252bede-b086-450f-be3f-a12aa1d17307" />
 
+---
+## Medium 
+
+<img width="1678" height="793" alt="Screenshot 2025-08-17 at 11 10 14 AM" src="https://github.com/user-attachments/assets/fa6b3ac9-c04e-41bc-bb9d-d7dc3aa394c8" />
+
+
 
 
 
