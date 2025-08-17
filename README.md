@@ -303,6 +303,10 @@ I will do atleast one question today from leetcode nad stratascratch both
 
 <img width="1678" height="793" alt="Screenshot 2025-08-17 at 11 10 14 AM" src="https://github.com/user-attachments/assets/fa6b3ac9-c04e-41bc-bb9d-d7dc3aa394c8" />
 
+***Logic*** - For this question, instead of finding the pages which the user is not following, but his friend does we did opposite. We found the pages that are being mutually followed and eliminated them so we are only left with the pages that user does not follow but his friend does
+
+To find the pages that are being mutually followed - 1. We did chose users's 9 only users not friends) from both tables </br>
+2. Then we found out which pages are being followed by friend to do that we used pg.page_id = p.page_id becuase we had already joined friend_id and page_id in prev. join
 
 
 
